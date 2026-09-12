@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.venv/
+venv/
+env/
+
+.env
+.env.*
+!.env.example
+
+# Local datasets and generated training artifacts
+data/
+models/
+
+# Notebook and tool-generated local state
+.ipynb_checkpoints/
+.vscode/

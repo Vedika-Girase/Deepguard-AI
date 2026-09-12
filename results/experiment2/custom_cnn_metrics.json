@@ -1,0 +1,30 @@
+{
+    "experiment": "Experiment 2 - Source-Video-Independent Image Classification",
+    "model": "Custom CNN",
+    "dataset": "FaceForensics++ C23 mini subset",
+    "total_images": 974,
+    "train_images": 500,
+    "validation_images": 224,
+    "test_images": 250,
+    "best_validation_accuracy": 0.6919642857142857,
+    "test_accuracy": 0.716,
+    "test_precision": 0.9655172413793104,
+    "test_recall": 0.448,
+    "test_f1": 0.6120218579234973,
+    "training_time_seconds": 444.50013995170593,
+    "test_inference_time_seconds": 4.870173931121826,
+    "class_mapping": {
+        "deepfake": 0,
+        "real": 1
+    },
+    "confusion_matrix": [
+        [
+            123,
+            2
+        ],
+        [
+            69,
+            56
+        ]
+    ]
+}

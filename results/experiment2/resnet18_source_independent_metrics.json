@@ -1,0 +1,25 @@
+{
+    "model": "ResNet18",
+    "experiment": "Experiment 2 - Source Independent",
+    "dataset": "FaceForensics++",
+    "train_images": 500,
+    "validation_images": 224,
+    "test_images": 250,
+    "validation_accuracy": 0.6651785714285714,
+    "test_accuracy": 0.668,
+    "precision": 0.6166666666666667,
+    "recall": 0.888,
+    "f1_score": 0.7278688524590164,
+    "training_time_seconds": 291.43956208229065,
+    "inference_time_seconds": 5.637562036514282,
+    "confusion_matrix": [
+        [
+            56,
+            69
+        ],
+        [
+            14,
+            111
+        ]
+    ]
+}

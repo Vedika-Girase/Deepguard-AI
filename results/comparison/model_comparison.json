@@ -1,0 +1,32 @@
+[
+    {
+        "Model": "Custom CNN",
+        "Validation Accuracy": 63.905325443786985,
+        "Test Accuracy": 0.0,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1 Score": 0.0,
+        "Training Time (s)": 400.1183907985687,
+        "Inference Time (s)": 4.159710645675659
+    },
+    {
+        "Model": "ResNet18",
+        "Validation Accuracy": 65.75342465753424,
+        "Test Accuracy": 60.810810810810814,
+        "Precision": 61.111111111111114,
+        "Recall": 59.45945945945946,
+        "F1 Score": 60.273972602739725,
+        "Training Time (s)": 195.9622778892517,
+        "Inference Time (s)": 4.34948468208313
+    },
+    {
+        "Model": "ResNet18 Fine-Tuned",
+        "Validation Accuracy": 100.0,
+        "Test Accuracy": 100.0,
+        "Precision": 100.0,
+        "Recall": 100.0,
+        "F1 Score": 100.0,
+        "Training Time (s)": 237.0493016242981,
+        "Inference Time (s)": 4.148908615112305
+    }
+]

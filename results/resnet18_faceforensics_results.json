@@ -1,0 +1,113 @@
+{
+    "experiment": "DeepGuard ResNet18",
+    "dataset": "FaceForensics++",
+    "model": "ResNet18 Transfer Learning",
+    "device": "cpu",
+    "image_size": 224,
+    "batch_size": 16,
+    "epochs": 10,
+    "learning_rate": 0.0001,
+    "train_samples": 680,
+    "validation_samples": 146,
+    "test_samples": 148,
+    "best_validation_accuracy": 0.6575342465753424,
+    "test_accuracy": 0.6081081081081081,
+    "precision": 0.6111111111111112,
+    "recall": 0.5945945945945946,
+    "f1_score": 0.6027397260273972,
+    "training_time_seconds": 195.9622778892517,
+    "inference_time_seconds": 4.34948468208313,
+    "confusion_matrix": [
+        [
+            46,
+            28
+        ],
+        [
+            30,
+            44
+        ]
+    ],
+    "training_history": [
+        {
+            "epoch": 1,
+            "train_loss": 0.7979369939759721,
+            "train_accuracy": 0.47941176470588237,
+            "validation_loss": 0.7133065909147263,
+            "validation_accuracy": 0.4726027397260274,
+            "epoch_time": 23.65160846710205
+        },
+        {
+            "epoch": 2,
+            "train_loss": 0.7594140878943509,
+            "train_accuracy": 0.5235294117647059,
+            "validation_loss": 0.6846157044172287,
+            "validation_accuracy": 0.5136986301369864,
+            "epoch_time": 17.67128872871399
+        },
+        {
+            "epoch": 3,
+            "train_loss": 0.7539641358131586,
+            "train_accuracy": 0.5485294117647059,
+            "validation_loss": 0.6700679183006286,
+            "validation_accuracy": 0.5205479452054794,
+            "epoch_time": 18.40596055984497
+        },
+        {
+            "epoch": 4,
+            "train_loss": 0.6995567762574484,
+            "train_accuracy": 0.5558823529411765,
+            "validation_loss": 0.6523229122161865,
+            "validation_accuracy": 0.5342465753424658,
+            "epoch_time": 19.055739402770996
+        },
+        {
+            "epoch": 5,
+            "train_loss": 0.6885933785937554,
+            "train_accuracy": 0.5911764705882353,
+            "validation_loss": 0.6413906902074814,
+            "validation_accuracy": 0.6027397260273972,
+            "epoch_time": 18.403530597686768
+        },
+        {
+            "epoch": 6,
+            "train_loss": 0.6680869245251944,
+            "train_accuracy": 0.6205882352941177,
+            "validation_loss": 0.6230851322412491,
+            "validation_accuracy": 0.589041095890411,
+            "epoch_time": 18.743367910385132
+        },
+        {
+            "epoch": 7,
+            "train_loss": 0.6736109090405841,
+            "train_accuracy": 0.5970588235294118,
+            "validation_loss": 0.6052728295326233,
+            "validation_accuracy": 0.6438356164383562,
+            "epoch_time": 18.439897060394287
+        },
+        {
+            "epoch": 8,
+            "train_loss": 0.6697483464728954,
+            "train_accuracy": 0.6147058823529412,
+            "validation_loss": 0.5934170365333558,
+            "validation_accuracy": 0.6506849315068494,
+            "epoch_time": 18.664472818374634
+        },
+        {
+            "epoch": 9,
+            "train_loss": 0.6434432857258375,
+            "train_accuracy": 0.6352941176470588,
+            "validation_loss": 0.5869610518217087,
+            "validation_accuracy": 0.6575342465753424,
+            "epoch_time": 20.22028946876526
+        },
+        {
+            "epoch": 10,
+            "train_loss": 0.6500458523284557,
+            "train_accuracy": 0.6441176470588236,
+            "validation_loss": 0.5761381298303604,
+            "validation_accuracy": 0.6575342465753424,
+            "epoch_time": 22.218441486358643
+        }
+    ],
+    "model_path": "models\\deepguard_resnet18_best.pth"
+}
