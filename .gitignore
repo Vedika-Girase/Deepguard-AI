@@ -1,0 +1,17 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+data/
+results/
+celebdf_files.txt
+
+*.zip
+*.log
+
+src/archive/
+
+.vscode/
+.idea/
+.DS_Store
