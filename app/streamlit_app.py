@@ -2,7 +2,7 @@
 import time
 from pathlib import Path
 
-import cv2
+
 import numpy as np
 import streamlit as st
 import torch
@@ -431,7 +431,4 @@ st.caption(
     "proof of manipulation."
 )
 
-st.caption(
-    "Research prototype — image-based facial "
-    "deepfake detection."
-)
+
